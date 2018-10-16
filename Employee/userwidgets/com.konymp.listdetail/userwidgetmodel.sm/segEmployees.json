@@ -1,0 +1,207 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segEmployees",
+    "ide_onRowClick": "AS_Segment_2c647dc91a8c48f492d5bc478fc748b5",
+    "ide_onTouchEnd": "AS_Segment_520dca4068354cff81164302d4b2d4a8",
+    "ide_onTouchMove": "AS_Segment_0b026fa0a4534f8ebfff62d7c926d6d8",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": false,
+    "kuid": "ca18f1a7a1a04879b1cbd01bc9f60f5b",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "department": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Department"
+                },
+                "designation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Designation"
+                },
+                "empimage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "user_profile2.png"
+                },
+                "empname": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Acker,clara"
+                },
+                "lblChild": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "lbl"
+                },
+                "lblInvisible": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                }
+            },
+            {
+                "department": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Department"
+                },
+                "designation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Designation"
+                },
+                "empimage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "user_profile2.png"
+                },
+                "empname": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Acker,clara"
+                },
+                "lblChild": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "lbl"
+                },
+                "lblInvisible": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                }
+            },
+            {
+                "department": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Department"
+                },
+                "designation": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Designation"
+                },
+                "empimage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "user_profile2.png"
+                },
+                "empname": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Acker,clara"
+                },
+                "lblChild": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "lbl"
+                },
+                "lblInvisible": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "a"
+                }
+            }
+        ],
+        "rowTemplateId": "2d43bb7854664376993cba84eb282553",
+        "rowtemplate": "Copydatacontainer",
+        "selectionBehaviorConfig": {},
+        "widgetdatamap": {
+            "Copydatacontainer": "Copydatacontainer",
+            "colorflx": "colorflx",
+            "department": "department",
+            "designation": "designation",
+            "empimage": "empimage",
+            "empname": "empname",
+            "flxImageHolder": "flxImageHolder",
+            "flxOnline": "flxOnline",
+            "lblChild": "lblChild",
+            "lblInvisible": "lblInvisible"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSeg",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sdc085aea78a42f886cee5537f629462",
+    "rowskin": "sb07450e57334423a46ad1e880d39705",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s5925aba94ff4329b3ea560945c9b46c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "colorflx": "colorflx",
+        "datacontainer": "datacontainer",
+        "department": "department",
+        "designation": "designation",
+        "empimage": "empimage",
+        "empname": "empname",
+        "flxImageHolder": "flxImageHolder",
+        "flxOnline": "flxOnline",
+        "lblChild": "lblChild",
+        "lblInvisible": "lblInvisible"
+    },
+    "zindex": 2
+}

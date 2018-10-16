@@ -1,0 +1,96 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sb60b6ec759d439a8a2849429ae07196",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "btnClickSkin": "sknBtnTransperant",
+        "footerStyle": "\"only Text\"",
+        "footerTextSkin": "sknLblHeaderWhiteffffff",
+        "hamIconIsVisibility": false,
+        "headingLeft": {
+            "Default": {
+                "type": "string",
+                "value": "36%"
+            }
+        },
+        "headingSkin": "sknLblHeaderWhiteffffff",
+        "headingTop": {
+            "Default": {
+                "type": "string",
+                "value": "25%"
+            }
+        },
+        "ide_onClickFooter": "AS_UWI_e5d10886c84341f4a574f5d2ad561fe4",
+        "menuItemTextSkin": "sknLblHeaderWhiteffffff",
+        "profileImageLeft": {
+            "Default": {
+                "type": "string",
+                "value": "5%"
+            }
+        },
+        "profileImageTop": {
+            "Default": {
+                "type": "string",
+                "value": "10%"
+            }
+        },
+        "slidingMenuSkin": "sknFlxED061525103052",
+        "subHeadingLeft": {
+            "Default": {
+                "type": "string",
+                "value": "36%"
+            }
+        },
+        "subHeadingSkin": "sknlblnunitoLightf2f2f2ffpx30"
+    },
+    "id": "hamburger",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d4a385c95b3642d9bd2a3ede0c3ca50a",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "snaptogrid": true,
+    "sourceUserWidget": "m8e464bb908946d5a8beecad6f314755",
+    "wType": "UserWidgetInstance",
+    "zindex": 2
+}

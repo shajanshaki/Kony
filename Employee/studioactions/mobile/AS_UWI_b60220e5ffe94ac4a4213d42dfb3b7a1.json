@@ -1,0 +1,24 @@
+{
+    "AS_UWI_b60220e5ffe94ac4a4213d42dfb3b7a1": {
+        "id": "AS_UWI_b60220e5ffe94ac4a4213d42dfb3b7a1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b510115b80e8401598674ced569124bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"faceid enroll Failed enroll again!!!\");\nalert(\"faceid enroll Failed enroll again!!!\");\n//this.enableFaceIdLoginNoOnClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

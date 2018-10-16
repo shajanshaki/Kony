@@ -1,0 +1,22 @@
+{
+    "AS_UWI_a77c4873e0c7414b86ab7bc0e3f6ef8e": {
+        "id": "AS_UWI_a77c4873e0c7414b86ab7bc0e3f6ef8e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c8ccd9cc1f2e42418910331bce37723f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"onUnENroll Failed\");",
+            "parentId": null
+        }]
+    }
+}

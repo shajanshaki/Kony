@@ -1,0 +1,19 @@
+{
+    "AS_UWI_edd77b479ac04b5383de64a411ca2652": {
+        "id": "AS_UWI_edd77b479ac04b5383de64a411ca2652",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c2065288c1fd4c5f95d1ec31587e7f7e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"onUnEnroll Success\");",
+            "parentId": null
+        }]
+    }
+}

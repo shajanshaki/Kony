@@ -1,0 +1,6 @@
+framework module KonyFaceSDK {
+  umbrella header "KonyFaceSDK.h"
+
+  export *
+  module * { export * }
+}

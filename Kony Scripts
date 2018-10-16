@@ -1,0 +1,42 @@
+bash
+
+npm install
+
+One Time Activity
+
+1. source /Users/piyushkumar/Downloads/Finalizer-8.4.0.150006-macosx-x64/setenv.sh
+2. /Users/piyushkumar/Downloads/Finalizer-8.4.0.150006-macosx-x64/Xcode/deprecated/install-xcode-finalizer-wrapper.sh
+
+copy the Follwoing files to Workspace path
+
+1. build.js
+2. package.json
+
+Modifying the following files in Workspace
+
+1. HeadlessBuild.properties
+2. nativeapi.json
+
+Build
+
+1. node build.js -clean
+
+KAR file generated the following path
+
+1. Workspace root folder /temp
+
+Once KAR file is generating is done following the Stpes
+
+1. create a new directory {sample}
+2. Copy the latest ios Plugin to your project root path ---- cp /Applications/KonyVisualizerEnterprise8/Kony_Visualizer_Enterprise/plugins/com.kony.ios_8.2.23.v201809271721.jar {sample} path
+3. jar file convert to zip file ----- mv {filename}.jar {filename}.zip
+4. extract the zip file  ---- unzip {filename}.zip
+5. extract the another zip file ---- unzip {filename}.zip
+
+PERL commands
+
+1. cd {sample} -- inside
+2. cd VMAppWithKonylib\gen
+3. perl extract.pl {URL of app KAR}
+4. For example, perl extract.pl
+5. open ../VMAppWithKonylib.Xcodeproj

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_b614355fb2d04dc99858fca4d3a23ee5": {
+        "id": "AS_FlexContainer_b614355fb2d04dc99858fca4d3a23ee5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwub6fa345d1d94544a81e90575c96760e",
+            "type": "userwidgets",
+            "KUID": "ub6fa345d1d94544a81e90575c96760e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ie5cdadb11b24d5ba714369804a60ac9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfCallFlex(this.view.lblCallMobileValue.text);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

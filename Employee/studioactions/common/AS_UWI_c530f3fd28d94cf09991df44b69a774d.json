@@ -1,0 +1,20 @@
+{
+    "AS_UWI_c530f3fd28d94cf09991df44b69a774d": {
+        "id": "AS_UWI_c530f3fd28d94cf09991df44b69a774d",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h8a1b1dd570c42f3a51f669064d6ef27",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.faceIdEnrollSuccess();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

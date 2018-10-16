@@ -1,0 +1,24 @@
+{
+    "AS_UWI_e279aa7fe03342f7a567e2a499d4ce5f": {
+        "id": "AS_UWI_e279aa7fe03342f7a567e2a499d4ce5f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__db915bfed7634505901e0811db162fb7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"faceid verification failed!!!\");\nalert(\"Faceid verification failed.login using credentials or verify again!!!\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

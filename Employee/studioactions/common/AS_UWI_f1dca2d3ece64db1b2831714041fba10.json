@@ -1,0 +1,23 @@
+{
+    "AS_UWI_f1dca2d3ece64db1b2831714041fba10": {
+        "id": "AS_UWI_f1dca2d3ece64db1b2831714041fba10",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j26744db242d4210ae109bfd40715169",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"onUnEnroll Failure\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

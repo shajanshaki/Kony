@@ -1,0 +1,157 @@
+{
+    "android": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "Nunito-Regular",
+        "font_size": 100,
+        "isForked": true
+    },
+    "background_color": "ffffff7f",
+    "bg_type": "one",
+    "border_color": "33386dff",
+    "border_radius": 39,
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "desktopweb": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true
+    },
+    "fontSizeInPx": false,
+    "font_color": "8799abff",
+    "font_name": "Helvetica",
+    "font_size": 86,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "ClanPro-Book",
+        "font_size": 100,
+        "isForked": true
+    },
+    "iphone": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "Nunito-Regular",
+        "font_size": 100,
+        "isForked": true
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "GenericMonospace",
+        "font_size": 100,
+        "isForked": true
+    },
+    "kuid": "s2cacd3554ea493099ecedbd970d28e7",
+    "spaan": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Nunito-Regular",
+        "font_size": 100,
+        "isForked": true
+    },
+    "spaandroidtablet": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true
+    },
+    "spabb": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true
+    },
+    "spaip": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Nunito-Regular",
+        "font_size": 100,
+        "isForked": true
+    },
+    "spaipad": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true
+    },
+    "spawindowstablet": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Helvetica",
+        "font_size": 100,
+        "isForked": true
+    },
+    "spawinphone8": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "font_color": "1d1d26ff",
+        "font_name": "Nunito-Regular",
+        "font_size": 100,
+        "isForked": true
+    },
+    "tabrcandroid": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "ClanPro-Book",
+        "font_size": 100,
+        "isForked": true
+    },
+    "wType": "TextField",
+    "watchos": {
+        "font_name": "Helvetica",
+        "font_size": 86,
+        "isForked": false
+    },
+    "windows8": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "GenericMonospace",
+        "font_size": 100,
+        "isForked": true
+    },
+    "winphone8": {
+        "background_color": "f8f8f900",
+        "bg_type": "one",
+        "border_color": "bbbbbe00",
+        "border_type": 0,
+        "font_color": "1d1d26ff",
+        "font_name": "Nunito-Regular",
+        "font_size": 100,
+        "isForked": true
+    }
+}

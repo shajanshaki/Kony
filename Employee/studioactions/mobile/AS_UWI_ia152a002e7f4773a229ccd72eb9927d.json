@@ -1,0 +1,21 @@
+{
+    "AS_UWI_ia152a002e7f4773a229ccd72eb9927d": {
+        "id": "AS_UWI_ia152a002e7f4773a229ccd72eb9927d",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ee7bc45ff87145188d1b401ec36f5439",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"faceid unenroll success!!!\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "AS_Button_d06dd8aa54a846a7866d73b869fa9829": {
+        "id": "AS_Button_d06dd8aa54a846a7866d73b869fa9829",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf338773fa22443dac15facfdc0bf29b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f12faad6616443888b743a096beb8f77",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.touchEnableAction();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

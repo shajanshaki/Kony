@@ -1,0 +1,21 @@
+{
+    "AS_UWI_j6887bc2b7de4861b2c0c52c15be27fb": {
+        "id": "AS_UWI_j6887bc2b7de4861b2c0c52c15be27fb",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hd841aa609524cc4a6e78812c9c46125",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.faceIdEnrollSuccess();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

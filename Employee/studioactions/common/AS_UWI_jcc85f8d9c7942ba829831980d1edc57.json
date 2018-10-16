@@ -1,0 +1,20 @@
+{
+    "AS_UWI_jcc85f8d9c7942ba829831980d1edc57": {
+        "id": "AS_UWI_jcc85f8d9c7942ba829831980d1edc57",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cfc754b262254efca137c426d9d0a3ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.loginSuccessEvent();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

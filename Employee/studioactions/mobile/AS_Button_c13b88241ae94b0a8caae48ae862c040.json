@@ -1,0 +1,17 @@
+{
+    "AS_Button_c13b88241ae94b0a8caae48ae862c040": {
+        "id": "AS_Button_c13b88241ae94b0a8caae48ae862c040",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_j3b49c33bc344fb498835310963087d6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableFaceIdLoginNoOnClick();",
+            "callbackType": null
+        }]
+    }
+}

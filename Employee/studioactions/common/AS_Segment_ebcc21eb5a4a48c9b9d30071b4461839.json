@@ -1,0 +1,29 @@
+{
+    "AS_Segment_ebcc21eb5a4a48c9b9d30071b4461839": {
+        "id": "AS_Segment_ebcc21eb5a4a48c9b9d30071b4461839",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwub6fa345d1d94544a81e90575c96760e",
+            "type": "userwidgets",
+            "KUID": "ub6fa345d1d94544a81e90575c96760e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__gdbf1629ac51461ab647b2204720e13a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.getScrolledSection();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

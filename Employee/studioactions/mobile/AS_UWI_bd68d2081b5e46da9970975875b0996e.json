@@ -1,0 +1,21 @@
+{
+    "AS_UWI_bd68d2081b5e46da9970975875b0996e": {
+        "id": "AS_UWI_bd68d2081b5e46da9970975875b0996e",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cae7b8fbcfa54c92937e392d2a3830c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4b4532dc6374489856087549998d58c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.listdetail.filterAndSetData(this.view.filterMenu.getSelectedValues());",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

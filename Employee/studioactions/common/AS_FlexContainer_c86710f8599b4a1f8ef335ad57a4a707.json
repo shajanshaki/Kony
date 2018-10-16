@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_c86710f8599b4a1f8ef335ad57a4a707": {
+        "id": "AS_FlexContainer_c86710f8599b4a1f8ef335ad57a4a707",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "udc9c8c826b948c884ba46c8f47795a4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f6f2cbe3bff144f6a157945454540660",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxIdentity.isVisible = false;\nthis.view.brwsrIdentity.htmlString = \"<html>Please wait !!</html>\"\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

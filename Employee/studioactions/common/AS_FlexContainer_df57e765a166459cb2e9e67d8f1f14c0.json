@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_df57e765a166459cb2e9e67d8f1f14c0": {
+        "id": "AS_FlexContainer_df57e765a166459cb2e9e67d8f1f14c0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ff555bdbdf4c4b0dab62e4ffaebfa750",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"inputType\",\"social\");\nthis.invokeIdentityService(\"EmpDirectryAD\");\n",
+            "callbackType": null
+        }]
+    }
+}

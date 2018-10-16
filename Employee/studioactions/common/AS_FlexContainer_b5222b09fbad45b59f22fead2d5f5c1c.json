@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_b5222b09fbad45b59f22fead2d5f5c1c": {
+        "id": "AS_FlexContainer_b5222b09fbad45b59f22fead2d5f5c1c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "udc9c8c826b948c884ba46c8f47795a4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a0460bca1c93452485af3d3ccc79267d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"inputType\",\"social\");\nthis.invokeIdentityService(\"reusableGoogleLogin\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

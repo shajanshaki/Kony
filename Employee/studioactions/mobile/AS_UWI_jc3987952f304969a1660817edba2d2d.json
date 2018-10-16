@@ -1,0 +1,24 @@
+{
+    "AS_UWI_jc3987952f304969a1660817edba2d2d": {
+        "id": "AS_UWI_jc3987952f304969a1660817edba2d2d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i61e5f8765ab41ffbf9710289861547b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"FaceId init Failed: \"+ JSON.stringify(error));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

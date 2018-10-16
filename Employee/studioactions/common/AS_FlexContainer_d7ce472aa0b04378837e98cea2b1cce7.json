@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_d7ce472aa0b04378837e98cea2b1cce7": {
+        "id": "AS_FlexContainer_d7ce472aa0b04378837e98cea2b1cce7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwub6fa345d1d94544a81e90575c96760e",
+            "type": "userwidgets",
+            "KUID": "ub6fa345d1d94544a81e90575c96760e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fe620dc664da43cf83cdc7f0ed1b9471",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfEmailFlex();",
+            "callbackType": null
+        }]
+    }
+}

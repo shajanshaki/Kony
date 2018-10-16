@@ -1,0 +1,23 @@
+{
+    "AS_UWI_ebc4c2c21e50475b9cb475700a9323e4": {
+        "id": "AS_UWI_ebc4c2c21e50475b9cb475700a9323e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j4122cb980e94dc2ac87341c59c4fade",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Kony.print(\"Verify Failed\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

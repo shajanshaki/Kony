@@ -1,0 +1,70 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s12598c82d5d4ec498931e69c05350a5",
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "btnSignInSkin": "s5cce9b447df4bf181b3dc05bf525e08",
+        "ide_onEnrollFailure": "AS_UWI_i5f0dd98bfaa408db828ac904d09ce8e",
+        "ide_onEnrollSuccess": "AS_UWI_e28776fdfb374d5ea4736e8b109823cf",
+        "ide_onInitFailure": "AS_UWI_aaa94c682f204c5b92a0d43c994b364b",
+        "ide_onInitSuccess": "AS_UWI_e6569280a4ba4be39ec0c33f5086d42a",
+        "ide_onUnenrollFailure": "AS_UWI_edcae07dba2249409f165d8bca2bef8d",
+        "ide_onUnenrollSuccess": "AS_UWI_e4a2cf8feb854cb2b64d29acd4265991",
+        "ide_onVerifyFailure": "AS_UWI_ebc4c2c21e50475b9cb475700a9323e4",
+        "ide_onVerifySuccess": "AS_UWI_a6567082484d451585af611329e2f06b",
+        "licenseString": "6dbe1057-8a9f-41a8-a9f8-120f129de9f1",
+        "serverURL": "https://ezio-uat.gemalto.sentinelcloud.com/ems"
+    },
+    "id": "faceid",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "bd283f656a314911a9d48585ae9f036d",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxFaceId",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "add24d4a07f14cec8078d4456a38aa1c",
+    "wType": "UserWidgetInstance"
+}

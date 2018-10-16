@@ -1,0 +1,26 @@
+{
+    "AS_TextField_i9a877deb8e843c3abff53f5fa1a7f9b": {
+        "id": "AS_TextField_i9a877deb8e843c3abff53f5fa1a7f9b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "uwub6fa345d1d94544a81e90575c96760e",
+            "type": "userwidgets",
+            "KUID": "ub6fa345d1d94544a81e90575c96760e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g7bc71f64458403ba433de8374b82937",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTextChangeAndDoneOfTbxSearch();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

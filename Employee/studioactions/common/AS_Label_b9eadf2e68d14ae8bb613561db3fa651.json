@@ -1,0 +1,28 @@
+{
+    "AS_Label_b9eadf2e68d14ae8bb613561db3fa651": {
+        "id": "AS_Label_b9eadf2e68d14ae8bb613561db3fa651",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf338773fa22443dac15facfdc0bf29b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fdf05c27de944d57851894347a8645ec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.lblPassword.top==\"23%\")\n  this.invokeTouch(this.view.lblPassword,\"16%\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_i7ffa13263b341b2aa0d80216aef04e8": {
+        "id": "AS_FlexContainer_i7ffa13263b341b2aa0d80216aef04e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b2ab9a36daab40f0a9c6df6f2e28475e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(null, \"Loading...\", constants.LOADING_SCREEN_POSITION_ONLY_CENTER, false, true, {});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

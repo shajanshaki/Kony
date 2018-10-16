@@ -1,0 +1,28 @@
+{
+    "AS_Label_d7e2b79c3ff749069b594305f5393d4e": {
+        "id": "AS_Label_d7e2b79c3ff749069b594305f5393d4e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf338773fa22443dac15facfdc0bf29b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__je7c99c2225341adbd1d22e1dc5c09be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.lblUsername.top==\"6%\"){\n  this.invokeTouch(this.view.lblUsername,\"-1%\");\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

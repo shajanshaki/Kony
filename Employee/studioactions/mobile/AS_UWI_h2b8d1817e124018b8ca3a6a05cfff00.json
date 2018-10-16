@@ -1,0 +1,19 @@
+{
+    "AS_UWI_h2b8d1817e124018b8ca3a6a05cfff00": {
+        "id": "AS_UWI_h2b8d1817e124018b8ca3a6a05cfff00",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "fdd15c5b794f4df4b23b91a6aa4578a3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f86731ae9f574709a6a003da77c77271",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.faceidUnEnrollSuccess();",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_d3b5a4758fe7432481245fe05b75fe9d": {
+        "id": "AS_Form_d3b5a4758fe7432481245fe05b75fe9d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cae7b8fbcfa54c92937e392d2a3830c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c2fd9c8c862543ceb92c95296c5d1e2d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.hamburger.left = \"-100%\";\nthis.animation(1,1,\"0%\",false);\nthis.view.listdetail.left = \"0%\";\nthis.view.flxCover.isVisible = false;\nthis.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

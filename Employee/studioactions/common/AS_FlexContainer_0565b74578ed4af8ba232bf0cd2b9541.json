@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_0565b74578ed4af8ba232bf0cd2b9541": {
+        "id": "AS_FlexContainer_0565b74578ed4af8ba232bf0cd2b9541",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf338773fa22443dac15facfdc0bf29b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h2926eb037214147b386004358a1871e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.invokeTouchID();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

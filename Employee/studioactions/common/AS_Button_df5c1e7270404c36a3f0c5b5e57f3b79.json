@@ -1,0 +1,22 @@
+{
+    "AS_Button_df5c1e7270404c36a3f0c5b5e57f3b79": {
+        "id": "AS_Button_df5c1e7270404c36a3f0c5b5e57f3b79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwub6fa345d1d94544a81e90575c96760e",
+            "type": "userwidgets",
+            "KUID": "ub6fa345d1d94544a81e90575c96760e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a0e38b5f9a0d4a7ba7a5627a121710f4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateFlex(this,\"100%\");\nthis.reanimateTheWidgetsInDetailsPage();\nthis.view.forceLayout();",
+            "callbackType": null
+        }]
+    }
+}

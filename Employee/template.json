@@ -1,0 +1,3384 @@
+{
+    "images": [],
+    "screenshotGenerated": true,
+    "skinDefs": {},
+    "sourceChannel": "common",
+    "templateDef": {
+        "DNDConfig": null,
+        "__parentReadjusting__": false,
+        "_height_": {
+            "type": "string",
+            "value": "100%"
+        },
+        "_left_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "sbcf135703ee430d9c70b938434227cd",
+        "_top_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_width_": {
+            "type": "string",
+            "value": "100%"
+        },
+        "allboxes": [],
+        "canUpdateUI": true,
+        "children": [
+            "flxLogin",
+            "flxIdentity"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "flxIdentity": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_skin_": "s7de560d01b04c8db675deaef66cf642",
+            "_top_": {
+                "type": "string",
+                "value": "0%"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "brwsrIdentity": {
+                "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_top_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_type_": 3,
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "canUpdateUI": true,
+                "containerweight": 69,
+                "detecttelnumber": true,
+                "htmlstring": "Please wait !!\n",
+                "id": "brwsrIdentity",
+                "info": null,
+                "isvisible": true,
+                "kuid": "g3562d2983034f0189b1d406ba596e8c",
+                "margininpixel": false,
+                "method": "get",
+                "name": "kony.ui.Browser",
+                "paddinginpixel": false,
+                "parent": "flxIdentity",
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "requesturlconfig": {
+                    "URL": "",
+                    "requestMethod": "get"
+                },
+                "screenlevelwidget": false,
+                "url": "",
+                "wType": "Browser",
+                "zindex": 100
+            },
+            "canUpdateUI": true,
+            "centerx": {
+                "type": "string",
+                "value": "50%"
+            },
+            "centery": {
+                "type": "string",
+                "value": "50%"
+            },
+            "children": [
+                "brwsrIdentity",
+                "imgClose"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "enablescrolling": true,
+            "genericProperties": {},
+            "id": "flxIdentity",
+            "imgClose": {
+                "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_base64_": null,
+                "_height_": {
+                    "type": "string",
+                    "value": "35dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_right_": {
+                    "type": "string",
+                    "value": "2%"
+                },
+                "_skin_": "sd5289a0c8d04f8c8659cf7999080a3f",
+                "_src_": "clear_input_icon.png",
+                "_top_": {
+                    "type": "string",
+                    "value": "0.50%"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "35dp"
+                },
+                "canUpdateUI": true,
+                "containerweight": 100,
+                "context": {
+                    "channel": "mobile",
+                    "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "platform": "iphone",
+                    "templateType": "userwidgets",
+                    "topLevelBox": null
+                },
+                "id": "imgClose",
+                "ide_onTouchStart": "AS_Image_73da2dfedd3a4f2d844b131345ccb639",
+                "imagescalemode": 1,
+                "info": null,
+                "isvisible": true,
+                "kuid": "f4e35f36434847519b6afb42617d69d4",
+                "name": "kony.ui.Image2",
+                "parent": "flxIdentity",
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "srcType": 1,
+                "wType": "Image",
+                "widgetalignment": 5,
+                "zindex": 101
+            },
+            "info": null,
+            "iphone": {
+                "render": true
+            },
+            "isvisible": false,
+            "kuid": "b3771538165540328fee9a5edf9054dc",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "login",
+            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 10
+        },
+        "flxLogin": {
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "_left_": {
+                "type": "number",
+                "value": "0"
+            },
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_skin_": "se97d6067f1f45fe9a667fe22d2b7b2b",
+            "_top_": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "100%"
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [
+                "flxBottomContainer",
+                "flxlogo",
+                "flxTouchId",
+                "flxSocialLogin",
+                "flxCredentials",
+                "flxPopups"
+            ],
+            "clipbounds": false,
+            "containerweight": 100,
+            "enabled": false,
+            "enablescrolling": true,
+            "flxBottomContainer": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_bottom_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_height_": {
+                    "type": "string",
+                    "value": "60%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s99f66ef5fab458d9fc0a6985caff696",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "children": [],
+                "clipbounds": true,
+                "containerweight": 100,
+                "enabled": false,
+                "enablescrolling": true,
+                "id": "flxBottomContainer",
+                "info": null,
+                "isvisible": true,
+                "kuid": "f20110eab463468388843979d5b75491",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "orientation": 6,
+                "parent": "flxLogin",
+                "percent": true,
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 8
+            },
+            "flxCredentials": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "43%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s10254eccfa742e9befa5bec15bebe57",
+                "_width_": {
+                    "type": "string",
+                    "value": "92%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "btnLogin": {
+                    "@class": "com.kony.gen.viz.model.component.KVizButton",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "42dp"
+                    },
+                    "_margin_": [
+                        6,
+                        6,
+                        6,
+                        6
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "s4d3e9ae412946d7a7d02d654a5b2a23",
+                    "_text_": "SIGN IN",
+                    "_top_": {
+                        "type": "string",
+                        "value": "60.04%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "80%"
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50.06%"
+                    },
+                    "containerweight": 100,
+                    "contentalignment": 5,
+                    "displaytext": true,
+                    "focusskin": "s02c11c613e54e19a48b0f9bfdd6ce7f",
+                    "id": "btnLogin",
+                    "ide_onClick": "AS_Button_78bc54b534c94ce3a03fa5218e49881f",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "ac33479c328846cabd62987b86200716",
+                    "name": "kony.ui.Button",
+                    "parent": "flxCredentials",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "wType": "Button",
+                    "zindex": 1
+                },
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "centery": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "children": [
+                    "flxUsername",
+                    "flxPassword",
+                    "flxRememberMe",
+                    "flxForgotPassword",
+                    "lblPassword",
+                    "btnLogin",
+                    "lblUsername"
+                ],
+                "clipbounds": false,
+                "containerweight": 100,
+                "enabled": false,
+                "enablescrolling": true,
+                "flxForgotPassword": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "30dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s757abc38b48429393ef3fd2a458eac6",
+                    "_top_": {
+                        "type": "string",
+                        "value": "80%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "90%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "btnForgotPassword": {
+                        "@class": "com.kony.gen.viz.model.component.KVizButton",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "80%"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_margin_": [
+                            6,
+                            6,
+                            6,
+                            6
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "sd6e0d7c6c624ce0b645544f5ea5c16a",
+                        "_text_": "Forgot password?",
+                        "_width_": {
+                            "type": "string",
+                            "value": "90%"
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "centery": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 5,
+                        "displaytext": true,
+                        "focusskin": "s6c0589b57624a55acf1abb5fe0d6df4",
+                        "id": "btnForgotPassword",
+                        "info": null,
+                        "iphone": {
+                            "psp": {
+                                "showProgressIndicator": false
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "b2de6f8330d14c2489a31088725ac514",
+                        "name": "kony.ui.Button",
+                        "parent": "flxForgotPassword",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "showprogressindicator": false,
+                        "wType": "Button",
+                        "zindex": 1
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "children": [
+                        "btnForgotPassword",
+                        "lblSknHidden"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "id": "flxForgotPassword",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "a867f02fc9904f429724ca2aa9c254d3",
+                    "layouttype": 2,
+                    "lblSknHidden": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "saf47a2522e140a1a12ad0ea3d163229",
+                        "_text_": "",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "id": "lblSknHidden",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "b9e5560f9eae4e4fa75d99ffe99ffb54",
+                        "name": "kony.ui.Label",
+                        "parent": "flxForgotPassword",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 1
+                    },
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxCredentials",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "flxPassword": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "15%"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_right_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_skin_": "se97d6067f1f45fe9a667fe22d2b7b2b",
+                    "_top_": {
+                        "type": "string",
+                        "value": "21%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "90%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "tbxPassword",
+                        "flxBottomPassword"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enabled": false,
+                    "enablescrolling": true,
+                    "flxBottomPassword": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_bottom_": {
+                            "type": "string",
+                            "value": "12%"
+                        },
+                        "_height_": {
+                            "type": "string",
+                            "value": "1dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_right_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_skin_": "s0a6fe6032a0401ab212f565f8bce82b",
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enabled": false,
+                        "enablescrolling": true,
+                        "id": "flxBottomPassword",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "gb106b74f9ad4d97ac02d3d2399b9b76",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "orientation": 6,
+                        "parent": "flxPassword",
+                        "percent": true,
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "id": "flxPassword",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "ef8d29cfb56042eb8979257a7fc104c2",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "orientation": 6,
+                    "parent": "flxCredentials",
+                    "percent": true,
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "tbxPassword": {
+                        "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "36dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_placeholder_": "",
+                        "_right_": {
+                            "type": "number",
+                            "value": "0"
+                        },
+                        "_skin_": "scc7c7431c754895912b1444a65a45ab",
+                        "_text_": "",
+                        "_top_": {
+                            "type": "string",
+                            "value": "15%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "android": {},
+                        "autocapitalize": "none",
+                        "autocomplete": false,
+                        "autocorrect": false,
+                        "autofilter": false,
+                        "canUpdateUI": true,
+                        "containerheight": "",
+                        "containerheightmode": 1,
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "enabled": false,
+                        "focusskin": "scc7c7431c754895912b1444a65a45ab",
+                        "id": "tbxPassword",
+                        "ide_onDone": "AS_TextField_1a7d6bedd647415c8b3d5caee9b91fdf",
+                        "info": null,
+                        "iphone": {},
+                        "isvisible": true,
+                        "keyboardtype": "A",
+                        "kuid": "cef4b5d91eb6484286324bd4aa00811e",
+                        "maxtextlength": 30,
+                        "mode": "A",
+                        "name": "kony.ui.TextBox2",
+                        "parent": "flxPassword",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "placeholderskin": "sb86fe9c1655401ab28e2922f8ed4a74",
+                        "securetextentry": true,
+                        "textinputmode": "A",
+                        "viewtype": "default",
+                        "wType": "TextField"
+                    },
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "flxRememberMe": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "34dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "6.97%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_right_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_skin_": "se97d6067f1f45fe9a667fe22d2b7b2b",
+                    "_top_": {
+                        "type": "string",
+                        "value": "40.96%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "lblRememberMe",
+                        "imgRememberme",
+                        "imgUnselected"
+                    ],
+                    "clipbounds": false,
+                    "containerweight": 100,
+                    "enabled": false,
+                    "enablescrolling": true,
+                    "id": "flxRememberMe",
+                    "ide_onClick": "AS_FlexContainer_9b53fb48875d448dad4f525d0393d1a0",
+                    "imgRememberme": {
+                        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_base64_": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "20dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "5%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "s86b75fec5f04d6a9642b316f2a06f4b",
+                        "_src_": "checkbox_selected.png",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "25dp"
+                        },
+                        "android": {
+                            "render": true
+                        },
+                        "canUpdateUI": true,
+                        "centery": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "containerweight": 100,
+                        "context": {
+                            "channel": "mobile",
+                            "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "platform": "iphone",
+                            "templateType": "userwidgets",
+                            "topLevelBox": null
+                        },
+                        "genericProperties": {
+                            "render": true
+                        },
+                        "id": "imgRememberme",
+                        "imagescalemode": 1,
+                        "imagewhenfailed": "checkbox_unselected.png",
+                        "info": null,
+                        "invokedProperty": "src",
+                        "iphone": {
+                            "render": true
+                        },
+                        "ispercent": true,
+                        "isvisible": false,
+                        "kuid": "b6ff806b221a416e9603abc1f85f509d",
+                        "name": "kony.ui.Image2",
+                        "parent": "flxRememberMe",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "spaan": {
+                            "render": true
+                        },
+                        "spabb": {
+                            "render": true
+                        },
+                        "spaip": {
+                            "render": true
+                        },
+                        "spawinphone8": {
+                            "render": true
+                        },
+                        "srcType": 1,
+                        "wType": "Image",
+                        "widgetalignment": 5,
+                        "winphone8": {
+                            "render": true
+                        },
+                        "zindex": 1
+                    },
+                    "imgUnselected": {
+                        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_base64_": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "20dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "5%"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "s455dfec155846e583d0402403e508bd",
+                        "_src_": "checkbox_unselected.png",
+                        "_width_": {
+                            "type": "string",
+                            "value": "25dp"
+                        },
+                        "canUpdateUI": true,
+                        "centery": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "containerweight": 100,
+                        "context": {
+                            "channel": "mobile",
+                            "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "platform": "iphone",
+                            "templateType": "userwidgets",
+                            "topLevelBox": null
+                        },
+                        "id": "imgUnselected",
+                        "imagescalemode": 1,
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "j3b4c73f0b00483481a025d338aa853a",
+                        "name": "kony.ui.Image2",
+                        "parent": "flxRememberMe",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "srcType": 1,
+                        "wType": "Image",
+                        "widgetalignment": 5,
+                        "zindex": 1
+                    },
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "ff579d5517a3414aa5cc0f2912f33f0a",
+                    "layouttype": 2,
+                    "lblRememberMe": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "23%"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "sd7ef8c60718469cae5fa0cb2cd83fbf",
+                        "_text_": "Remember Me",
+                        "_width_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "render": true,
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "centery": {
+                            "type": "string",
+                            "value": "50.00%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "genericProperties": {
+                            "render": true
+                        },
+                        "id": "lblRememberMe",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            },
+                            "render": true
+                        },
+                        "isvisible": true,
+                        "kuid": "a4c13c1cd4b3425bbf496f39accb10fb",
+                        "name": "kony.ui.Label",
+                        "parent": "flxRememberMe",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "spaan": {
+                            "render": true
+                        },
+                        "spabb": {
+                            "render": true
+                        },
+                        "spaip": {
+                            "render": true
+                        },
+                        "spawinphone8": {
+                            "render": true
+                        },
+                        "tooltip": "",
+                        "wType": "Label",
+                        "winphone8": {
+                            "render": true
+                        },
+                        "zindex": 1
+                    },
+                    "name": "kony.ui.FlexContainer",
+                    "orientation": 6,
+                    "parent": "flxCredentials",
+                    "percent": true,
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "flxUsername": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "15%"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_right_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_skin_": "se97d6067f1f45fe9a667fe22d2b7b2b",
+                    "_top_": {
+                        "type": "string",
+                        "value": "4%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "90%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "tbxUsername",
+                        "flxBottomUsername"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enabled": false,
+                    "enablescrolling": true,
+                    "flxBottomUsername": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_bottom_": {
+                            "type": "string",
+                            "value": "12%"
+                        },
+                        "_height_": {
+                            "type": "string",
+                            "value": "1dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_right_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_skin_": "s0a6fe6032a0401ab212f565f8bce82b",
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enabled": false,
+                        "enablescrolling": true,
+                        "id": "flxBottomUsername",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "de222a8ac0be43c1b8f47e3ebf5e9227",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "orientation": 6,
+                        "parent": "flxUsername",
+                        "percent": true,
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "id": "flxUsername",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "g499e6087b54453cbef221d4cf2b59e2",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "orientation": 6,
+                    "parent": "flxCredentials",
+                    "percent": true,
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "tbxUsername": {
+                        "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "33dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_placeholder_": "",
+                        "_right_": {
+                            "type": "number",
+                            "value": "0"
+                        },
+                        "_skin_": "scc7c7431c754895912b1444a65a45ab",
+                        "_text_": "",
+                        "_top_": {
+                            "type": "string",
+                            "value": "15%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "android": {},
+                        "autocapitalize": "none",
+                        "autocomplete": false,
+                        "autocorrect": false,
+                        "autofilter": false,
+                        "canUpdateUI": true,
+                        "closebuttontext": "Done",
+                        "containerheight": "",
+                        "containerheightmode": 1,
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "enabled": false,
+                        "focusskin": "scc7c7431c754895912b1444a65a45ab",
+                        "id": "tbxUsername",
+                        "ide_onDone": "AS_TextField_5a16314dc3fb4fb887964b1cb2f03620",
+                        "info": null,
+                        "iphone": {
+                            "psp": {
+                                "keyboardActionLabel": 1,
+                                "showClearButton": true,
+                                "showCloseButton": false,
+                                "showProgressIndicator": false
+                            }
+                        },
+                        "isvisible": true,
+                        "keyboardactionlabel": 1,
+                        "keyboardtype": "A",
+                        "kuid": "ba4d8931f18a4668a1925e427654036d",
+                        "maxtextlength": 30,
+                        "mode": "A",
+                        "name": "kony.ui.TextBox2",
+                        "parent": "flxUsername",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "placeholderskin": "sb86fe9c1655401ab28e2922f8ed4a74",
+                        "securetextentry": false,
+                        "showclearbutton": true,
+                        "showclosebutton": false,
+                        "showoprogressindicator": false,
+                        "textinputmode": "A",
+                        "viewtype": "default",
+                        "wType": "TextField"
+                    },
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "id": "flxCredentials",
+                "info": null,
+                "isvisible": true,
+                "kuid": "i18603fc53a34cff8d030e1d7ca23734",
+                "layouttype": 2,
+                "lblPassword": {
+                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "33dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_margin_": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "sc8e3a1ec3314199aa730ef5967d56b8",
+                    "_text_": "Password",
+                    "_top_": {
+                        "type": "string",
+                        "value": "23%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "90%"
+                    },
+                    "_wrapping_": 2,
+                    "android": {
+                        "textStyle": {
+                            "letterSpacing": 0,
+                            "strikeThrough": false
+                        }
+                    },
+                    "canUpdateUI": true,
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "id": "lblPassword",
+                    "ide_onTouchStart": "AS_Label_b9eadf2e68d14ae8bb613561db3fa651",
+                    "info": null,
+                    "ipad": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iphone": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "isvisible": true,
+                    "kuid": "d417c05db98746ec93fa492a64345c9a",
+                    "name": "kony.ui.Label",
+                    "parent": "flxCredentials",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "tooltip": "",
+                    "wType": "Label",
+                    "zindex": 1
+                },
+                "lblUsername": {
+                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "33dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "5%"
+                    },
+                    "_margin_": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "sc8e3a1ec3314199aa730ef5967d56b8",
+                    "_text_": "Username",
+                    "_top_": {
+                        "type": "string",
+                        "value": "6%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "90%"
+                    },
+                    "_wrapping_": 2,
+                    "android": {
+                        "textStyle": {
+                            "letterSpacing": 0,
+                            "strikeThrough": false
+                        }
+                    },
+                    "canUpdateUI": true,
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "id": "lblUsername",
+                    "ide_onTouchStart": "AS_Label_d7e2b79c3ff749069b594305f5393d4e",
+                    "info": null,
+                    "ipad": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iphone": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "isvisible": true,
+                    "kuid": "d03f0805474d4c07a5835e5475eeaebf",
+                    "name": "kony.ui.Label",
+                    "parent": "flxCredentials",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "tooltip": "",
+                    "wType": "Label",
+                    "zindex": 1
+                },
+                "name": "kony.ui.FlexContainer",
+                "orientation": 6,
+                "parent": "flxLogin",
+                "percent": true,
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 8
+            },
+            "flxPopups": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "s926fe9564ee42ed87ade14fc1e1149e",
+                "_top_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "android": {
+                    "render": true
+                },
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "children": [
+                    "flxEnableTouchIDPopup",
+                    "flxTouchIDPopup"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "enablescrolling": true,
+                "flxEnableTouchIDPopup": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_bottom_": {
+                        "type": "string",
+                        "value": "27%"
+                    },
+                    "_height_": {
+                        "type": "string",
+                        "value": "40%"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s07a6642239a4a88af5faf4a771f260a",
+                    "_width_": {
+                        "type": "string",
+                        "value": "89%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "children": [
+                        "flxButtons",
+                        "flxPopUpTitle",
+                        "flxEnableTouchIdPopupLine",
+                        "imgEnableTouchIDIcon",
+                        "lblMessage"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flxButtons": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_bottom_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_height_": {
+                            "type": "string",
+                            "value": "20%"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd2768d12c2a424aa8a2690ab66e683b",
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "btnCancel": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "s632ec9341e34390b3e8c6ab8ef6eb4a",
+                            "_text_": "Cancel",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0%"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "canUpdateUI": true,
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "sa2ab7f3dc504eff89956b71bcec842c",
+                            "id": "btnCancel",
+                            "ide_onClick": "AS_Button_098e189ae6a341f7bc9f2060f3f6d37c",
+                            "info": null,
+                            "isvisible": true,
+                            "kuid": "a20ca6f12b934b8980a6a96251ea0235",
+                            "name": "kony.ui.Button",
+                            "parent": "flxButtons",
+                            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "wType": "Button",
+                            "zindex": 10
+                        },
+                        "btnEnable": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "s2080cbb49f84bca9407ac2bd92240d7",
+                            "_text_": "Enable",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0%"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "canUpdateUI": true,
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "sa2ab7f3dc504eff89956b71bcec842c",
+                            "id": "btnEnable",
+                            "ide_onClick": "AS_Button_142315c475e740159c1e55d92260a002",
+                            "info": null,
+                            "isvisible": true,
+                            "kuid": "cb392aed461d4d43a09faf579d10342f",
+                            "name": "kony.ui.Button",
+                            "parent": "flxButtons",
+                            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "wType": "Button",
+                            "zindex": 10
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "btnEnable",
+                            "btnCancel"
+                        ],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxButtons",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "b0732a9ea2514d8c935e47dd6a940810",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxEnableTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "flxEnableTouchIdPopupLine": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "2px"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sc2aa9ce4eef4a928273460532cdc813",
+                        "_top_": {
+                            "type": "string",
+                            "value": "20%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxEnableTouchIdPopupLine",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "b789a73b5ca6428db31cd4b4be171fc4",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxEnableTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "flxPopUpTitle": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "20%"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd2768d12c2a424aa8a2690ab66e683b",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [
+                            "lblHeader"
+                        ],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxPopUpTitle",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "b4e9fcff5bba414195f4a9f9d47ca3ce",
+                        "layouttype": 2,
+                        "lblHeader": {
+                            "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "ref",
+                                "value": "preferred"
+                            },
+                            "_margin_": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "s6d60b86b083418dbfd263e346fd3aa8",
+                            "_text_": "Enable Touch ID",
+                            "_width_": {
+                                "type": "ref",
+                                "value": "preferred"
+                            },
+                            "_wrapping_": 2,
+                            "android": {
+                                "textStyle": {
+                                    "letterSpacing": 0,
+                                    "strikeThrough": false
+                                }
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 4,
+                            "id": "lblHeader",
+                            "info": null,
+                            "ipad": {
+                                "psp": {
+                                    "wrapping": 2
+                                }
+                            },
+                            "iphone": {
+                                "psp": {
+                                    "wrapping": 2
+                                }
+                            },
+                            "isvisible": true,
+                            "kuid": "d58f14eef4b64dbbb8e699bd5eb4377d",
+                            "name": "kony.ui.Label",
+                            "parent": "flxPopUpTitle",
+                            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "tooltip": "",
+                            "wType": "Label",
+                            "zindex": 10
+                        },
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxEnableTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "genericProperties": {},
+                    "id": "flxEnableTouchIDPopup",
+                    "imgEnableTouchIDIcon": {
+                        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_base64_": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "60dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "s3d09eaaa556445ba3cc4c8069fa16c8",
+                        "_src_": "touchid.png",
+                        "_width_": {
+                            "type": "string",
+                            "value": "60dp"
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "centery": {
+                            "type": "string",
+                            "value": "40%"
+                        },
+                        "containerweight": 100,
+                        "context": {
+                            "channel": "mobile",
+                            "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "platform": "iphone",
+                            "templateType": "userwidgets",
+                            "topLevelBox": null
+                        },
+                        "id": "imgEnableTouchIDIcon",
+                        "imagescalemode": 1,
+                        "info": null,
+                        "invokedProperty": "src",
+                        "isvisible": true,
+                        "kuid": "jb65c3b71f4d4f31b57a113e8e64eadc",
+                        "name": "kony.ui.Image2",
+                        "parent": "flxEnableTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "srcType": 1,
+                        "wType": "Image",
+                        "widgetalignment": 5,
+                        "zindex": 10
+                    },
+                    "info": null,
+                    "iphone": {
+                        "render": true
+                    },
+                    "isvisible": false,
+                    "kuid": "d19943744dd145efbb28c15a8047b0b1",
+                    "layouttype": 2,
+                    "lblMessage": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "sb88340b4cdb4a5283d9e0f180d8ddc1",
+                        "_text_": "You can use touch ID to Login",
+                        "_width_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "centery": {
+                            "type": "string",
+                            "value": "65%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "id": "lblMessage",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "c7b2d1faa2e44e669df126d9005d031f",
+                        "name": "kony.ui.Label",
+                        "parent": "flxEnableTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 10
+                    },
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxPopups",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 10
+                },
+                "flxTouchIDPopup": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_bottom_": {
+                        "type": "string",
+                        "value": "27%"
+                    },
+                    "_height_": {
+                        "type": "string",
+                        "value": "36%"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s07a6642239a4a88af5faf4a771f260a",
+                    "_top_": {
+                        "type": "string",
+                        "value": "0%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "89%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "children": [
+                        "flxTouchIDButtons",
+                        "flxTouchIDPopUpTitle",
+                        "flxTouchIDPopupLine",
+                        "imgTouchIDPopupIcon",
+                        "lblTouchMessage"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flxTouchIDButtons": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_bottom_": {
+                            "type": "string",
+                            "value": "0%"
+                        },
+                        "_height_": {
+                            "type": "string",
+                            "value": "25%"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd2768d12c2a424aa8a2690ab66e683b",
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "btnTouchCancel": {
+                            "@class": "com.kony.gen.viz.model.component.KVizButton",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0%"
+                            },
+                            "_margin_": [
+                                6,
+                                6,
+                                6,
+                                6
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "s632ec9341e34390b3e8c6ab8ef6eb4a",
+                            "_text_": "Cancel",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0%"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "canUpdateUI": true,
+                            "containerweight": 100,
+                            "contentalignment": 5,
+                            "displaytext": true,
+                            "focusskin": "sa2ab7f3dc504eff89956b71bcec842c",
+                            "id": "btnTouchCancel",
+                            "ide_onClick": "AS_Button_9ef0645d4d164d2ab3eea2c6859676eb",
+                            "info": null,
+                            "isvisible": true,
+                            "kuid": "d90e73c7bd5845978996cd1298d53e9d",
+                            "name": "kony.ui.Button",
+                            "parent": "flxTouchIDButtons",
+                            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "wType": "Button",
+                            "zindex": 10
+                        },
+                        "canUpdateUI": true,
+                        "children": [
+                            "btnTouchCancel"
+                        ],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxTouchIDButtons",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "c096770526b74c6086f70aa882addcd4",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "flxTouchIDPopUpTitle": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "25%"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sd2768d12c2a424aa8a2690ab66e683b",
+                        "_top_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [
+                            "lblTouchHeader"
+                        ],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxTouchIDPopUpTitle",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "cd28480ef3e84e0dba366b1fe4ee26e1",
+                        "layouttype": 2,
+                        "lblTouchHeader": {
+                            "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                            "DNDConfig": null,
+                            "__parentReadjusting__": false,
+                            "_height_": {
+                                "type": "ref",
+                                "value": "preferred"
+                            },
+                            "_margin_": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_skin_": "s33bc162ddc04fc1a7fea33ca55b0f9b",
+                            "_text_": "Touch ID",
+                            "_width_": {
+                                "type": "ref",
+                                "value": "preferred"
+                            },
+                            "_wrapping_": 2,
+                            "android": {
+                                "textStyle": {
+                                    "letterSpacing": 0,
+                                    "strikeThrough": false
+                                }
+                            },
+                            "canUpdateUI": true,
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "containerweight": 100,
+                            "contentalignment": 4,
+                            "id": "lblTouchHeader",
+                            "info": null,
+                            "ipad": {
+                                "psp": {
+                                    "wrapping": 2
+                                }
+                            },
+                            "iphone": {
+                                "psp": {
+                                    "wrapping": 2
+                                }
+                            },
+                            "isvisible": true,
+                            "kuid": "c3f8c8d4d84f4020ad4bea8505321953",
+                            "name": "kony.ui.Label",
+                            "parent": "flxTouchIDPopUpTitle",
+                            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "tooltip": "",
+                            "wType": "Label",
+                            "zindex": 10
+                        },
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "flxTouchIDPopupLine": {
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "2px"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "0dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "sc2aa9ce4eef4a928273460532cdc813",
+                        "_top_": {
+                            "type": "string",
+                            "value": "25%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "100%"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "children": [],
+                        "clipbounds": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxTouchIDPopupLine",
+                        "info": null,
+                        "isvisible": true,
+                        "kuid": "fdab9178441d44b4bc6532e003f2d385",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "snapgridsize": 10,
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "genericProperties": {},
+                    "id": "flxTouchIDPopup",
+                    "imgTouchIDPopupIcon": {
+                        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_base64_": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "s3d09eaaa556445ba3cc4c8069fa16c8",
+                        "_src_": "touchid.png",
+                        "_width_": {
+                            "type": "string",
+                            "value": "50dp"
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "centery": {
+                            "type": "string",
+                            "value": "40%"
+                        },
+                        "containerweight": 100,
+                        "context": {
+                            "channel": "mobile",
+                            "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                            "platform": "iphone",
+                            "templateType": "userwidgets",
+                            "topLevelBox": null
+                        },
+                        "id": "imgTouchIDPopupIcon",
+                        "imagescalemode": 1,
+                        "info": null,
+                        "invokedProperty": "src",
+                        "isvisible": true,
+                        "kuid": "g8683447d3ce452588a059057bcd4d2c",
+                        "name": "kony.ui.Image2",
+                        "parent": "flxTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "srcType": 1,
+                        "wType": "Image",
+                        "widgetalignment": 5,
+                        "zindex": 10
+                    },
+                    "info": null,
+                    "iphone": {
+                        "render": true
+                    },
+                    "isvisible": false,
+                    "kuid": "f6e5f37045a04becb2bd7b62c57b6ab3",
+                    "layouttype": 2,
+                    "lblTouchMessage": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "s1d81b30dc934884a8f151a9f6823367",
+                        "_text_": "Use Touch ID to Login",
+                        "_width_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "centery": {
+                            "type": "string",
+                            "value": "65%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "id": "lblTouchMessage",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "h18490d7bf884b9ba2bb0233944435b1",
+                        "name": "kony.ui.Label",
+                        "parent": "flxTouchIDPopup",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 10
+                    },
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxPopups",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 10
+                },
+                "genericProperties": {
+                    "render": true
+                },
+                "id": "flxPopups",
+                "info": null,
+                "iphone": {
+                    "render": true
+                },
+                "isvisible": false,
+                "kuid": "facd52bc944e45418bedc4235aa026ad",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "flxLogin",
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "spaan": {
+                    "render": true
+                },
+                "spabb": {
+                    "render": true
+                },
+                "spaip": {
+                    "render": true
+                },
+                "spawinphone8": {
+                    "render": true
+                },
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "winphone8": {
+                    "render": true
+                },
+                "zindex": 9
+            },
+            "flxSocialLogin": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "19%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "s757abc38b48429393ef3fd2a458eac6",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "centery": {
+                    "type": "string",
+                    "value": "90.50%"
+                },
+                "children": [
+                    "imgFaceBook",
+                    "imgLinkedIn",
+                    "imgGoogle",
+                    "flxOr"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "enablescrolling": true,
+                "flxOr": {
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "string",
+                        "value": "40%"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s757abc38b48429393ef3fd2a458eac6",
+                    "_top_": {
+                        "type": "string",
+                        "value": "0%"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "lblLine1",
+                        "lblOr",
+                        "lblLine2"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "id": "flxOr",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "j815614b0997439eb1f3ae0a60fd511f",
+                    "layouttype": 2,
+                    "lblLine1": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "se1696fe478f4f6fa73d40e3df4a6318",
+                        "_text_": "",
+                        "_top_": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "35%"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "25%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "id": "lblLine1",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "e04d8454254b4e4986cc2b9095198493",
+                        "name": "kony.ui.Label",
+                        "parent": "flxOr",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 1
+                    },
+                    "lblLine2": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "2%"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "se1696fe478f4f6fa73d40e3df4a6318",
+                        "_text_": "",
+                        "_top_": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "35%"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "75%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "id": "lblLine2",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "a09f35dce85e464688b90329d942f0d4",
+                        "name": "kony.ui.Label",
+                        "parent": "flxOr",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 1
+                    },
+                    "lblOr": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__parentReadjusting__": false,
+                        "_height_": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_skin_": "s7a3df4113fc445d8d4a57a1739745fc",
+                        "_text_": "OR",
+                        "_top_": {
+                            "type": "string",
+                            "value": "25%"
+                        },
+                        "_width_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "centerx": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "id": "lblOr",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "gbd4754882bc44b7b883e57ce9c6209f",
+                        "name": "kony.ui.Label",
+                        "parent": "flxOr",
+                        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 1
+                    },
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxSocialLogin",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 8
+                },
+                "id": "flxSocialLogin",
+                "imgFaceBook": {
+                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_base64_": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "s1cc8e96d7794652b007ab02a494682a",
+                    "_src_": "facebook.png",
+                    "_width_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "android": {
+                        "render": true
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "30%"
+                    },
+                    "centery": {
+                        "type": "string",
+                        "value": "60%"
+                    },
+                    "containerweight": 100,
+                    "context": {
+                        "channel": "mobile",
+                        "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "platform": "iphone",
+                        "templateType": "userwidgets",
+                        "topLevelBox": null
+                    },
+                    "genericProperties": {
+                        "render": true
+                    },
+                    "id": "imgFaceBook",
+                    "ide_onTouchStart": "AS_Image_7c438bbff6ee4ce7924f0b3cf2cf1682",
+                    "imagescalemode": 1,
+                    "info": null,
+                    "iphone": {
+                        "render": true
+                    },
+                    "isvisible": true,
+                    "kuid": "a0878c9c74144a3483d0213c7be973ee",
+                    "name": "kony.ui.Image2",
+                    "parent": "flxSocialLogin",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "spaan": {
+                        "render": true
+                    },
+                    "spabb": {
+                        "render": true
+                    },
+                    "spaip": {
+                        "render": true
+                    },
+                    "spawinphone8": {
+                        "render": true
+                    },
+                    "srcType": 1,
+                    "wType": "Image",
+                    "widgetalignment": 5,
+                    "winphone8": {
+                        "render": true
+                    },
+                    "zindex": 1
+                },
+                "imgGoogle": {
+                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_base64_": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "s1cc8e96d7794652b007ab02a494682a",
+                    "_src_": "google.png",
+                    "_width_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "centery": {
+                        "type": "string",
+                        "value": "60%"
+                    },
+                    "containerweight": 100,
+                    "context": {
+                        "channel": "mobile",
+                        "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "platform": "iphone",
+                        "templateType": "userwidgets",
+                        "topLevelBox": null
+                    },
+                    "id": "imgGoogle",
+                    "ide_onTouchStart": "AS_Image_aa93ed974ebb4c78a4637108887cdc72",
+                    "imagescalemode": 1,
+                    "info": null,
+                    "invokedProperty": "src",
+                    "isvisible": true,
+                    "kuid": "af3c5102134149119058e4c057bf2554",
+                    "name": "kony.ui.Image2",
+                    "parent": "flxSocialLogin",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "srcType": 1,
+                    "wType": "Image",
+                    "widgetalignment": 5,
+                    "zindex": 1
+                },
+                "imgLinkedIn": {
+                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_base64_": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "s1cc8e96d7794652b007ab02a494682a",
+                    "_src_": "linkedin.png",
+                    "_width_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "69%"
+                    },
+                    "centery": {
+                        "type": "string",
+                        "value": "60%"
+                    },
+                    "containerweight": 100,
+                    "context": {
+                        "channel": "mobile",
+                        "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "platform": "iphone",
+                        "templateType": "userwidgets",
+                        "topLevelBox": null
+                    },
+                    "id": "imgLinkedIn",
+                    "ide_onTouchStart": "AS_Image_5065bad199454e618a803d8865c8171b",
+                    "imagescalemode": 1,
+                    "info": null,
+                    "invokedProperty": "src",
+                    "isvisible": true,
+                    "kuid": "c164d468402242d881b840ac74c6c1b9",
+                    "name": "kony.ui.Image2",
+                    "parent": "flxSocialLogin",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "srcType": 1,
+                    "wType": "Image",
+                    "widgetalignment": 5,
+                    "zindex": 1
+                },
+                "info": null,
+                "isvisible": true,
+                "kuid": "ia9cb1844c1e4a14933adfe44a01f223",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "flxLogin",
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 8
+            },
+            "flxTouchId": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "8%"
+                },
+                "_left_": {
+                    "type": "string",
+                    "value": "0%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "s757abc38b48429393ef3fd2a458eac6",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "centery": {
+                    "type": "string",
+                    "value": "78%"
+                },
+                "children": [
+                    "imgTouchId",
+                    "lblTouchId"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "enablescrolling": true,
+                "id": "flxTouchId",
+                "ide_onClick": "AS_FlexContainer_756224b40cef418880948b2a5b22416e",
+                "imgTouchId": {
+                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_base64_": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "22%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "s1cc8e96d7794652b007ab02a494682a",
+                    "_src_": "touch_id_icon.png",
+                    "_width_": {
+                        "type": "string",
+                        "value": "40dp"
+                    },
+                    "canUpdateUI": true,
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "containerweight": 100,
+                    "context": {
+                        "channel": "mobile",
+                        "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "platform": "iphone",
+                        "templateType": "userwidgets",
+                        "topLevelBox": null
+                    },
+                    "id": "imgTouchId",
+                    "imagescalemode": 1,
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "b6cfbeefba154891b646d95012751583",
+                    "name": "kony.ui.Image2",
+                    "parent": "flxTouchId",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "srcType": 1,
+                    "wType": "Image",
+                    "widgetalignment": 5,
+                    "zindex": 1
+                },
+                "info": null,
+                "isvisible": true,
+                "kuid": "h8acbf5c60e54bbb996b0bafbecf7855",
+                "layouttype": 2,
+                "lblTouchId": {
+                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_height_": {
+                        "type": "ref",
+                        "value": "preferred"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "37%"
+                    },
+                    "_margin_": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "sf295558d3ae4e82a81f46a1fdb3347e",
+                    "_text_": "Sign in with Touch ID",
+                    "_width_": {
+                        "type": "ref",
+                        "value": "preferred"
+                    },
+                    "_wrapping_": 2,
+                    "android": {
+                        "textStyle": {
+                            "letterSpacing": 0,
+                            "strikeThrough": false
+                        }
+                    },
+                    "canUpdateUI": true,
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "id": "lblTouchId",
+                    "info": null,
+                    "ipad": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iphone": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "isvisible": true,
+                    "kuid": "e7e60578decd46e792c2c15debcf8866",
+                    "name": "kony.ui.Label",
+                    "parent": "flxTouchId",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "tooltip": "",
+                    "wType": "Label",
+                    "zindex": 1
+                },
+                "name": "kony.ui.FlexContainer",
+                "parent": "flxLogin",
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 8
+            },
+            "flxlogo": {
+                "DNDConfig": null,
+                "__parentReadjusting__": false,
+                "_height_": {
+                    "type": "string",
+                    "value": "40%"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_skin_": "s4441fa68d334611ba2617b39e4d7d6e",
+                "_top_": {
+                    "type": "string",
+                    "value": "0dp"
+                },
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "centerx": {
+                    "type": "string",
+                    "value": "50%"
+                },
+                "children": [
+                    "imgLogo"
+                ],
+                "clipbounds": false,
+                "containerweight": 100,
+                "enabled": false,
+                "enablescrolling": true,
+                "id": "flxlogo",
+                "imgLogo": {
+                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                    "DNDConfig": null,
+                    "__parentReadjusting__": false,
+                    "_base64_": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "30%"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_skin_": "s1cc8e96d7794652b007ab02a494682a",
+                    "_src_": "logo.png",
+                    "_width_": {
+                        "type": "string",
+                        "value": "30%"
+                    },
+                    "canUpdateUI": true,
+                    "centerx": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "centery": {
+                        "type": "string",
+                        "value": "40%"
+                    },
+                    "containerweight": 100,
+                    "context": {
+                        "channel": "mobile",
+                        "formID": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                        "platform": "iphone",
+                        "templateType": "userwidgets",
+                        "topLevelBox": null
+                    },
+                    "id": "imgLogo",
+                    "imagescalemode": 1,
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "a4ac20b92ce749369d921131f8b509ab",
+                    "name": "kony.ui.Image2",
+                    "parent": "flxlogo",
+                    "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                    "srcType": 1,
+                    "wType": "Image",
+                    "widgetalignment": 5,
+                    "zindex": 1
+                },
+                "info": null,
+                "isvisible": true,
+                "kuid": "h5335b2837b54092be89a1eba9c74d3c",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "orientation": 6,
+                "parent": "flxLogin",
+                "percent": true,
+                "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 8
+            },
+            "id": "flxLogin",
+            "info": null,
+            "isvisible": true,
+            "kuid": "a863fbc0fb204adbad4b6d908e5f96d4",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "orientation": 6,
+            "parent": "login",
+            "percent": true,
+            "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "id": "login",
+        "info": null,
+        "isvisible": true,
+        "kuid": "cd4834da3fd340b8a65f483ef9d593a7",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+        "pf": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1
+    },
+    "userwidgetKUID": "u90815681af54bdbbe95d51a475d4ceb"
+}

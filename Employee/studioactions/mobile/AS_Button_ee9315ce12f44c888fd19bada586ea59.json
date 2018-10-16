@@ -1,0 +1,24 @@
+{
+    "AS_Button_ee9315ce12f44c888fd19bada586ea59": {
+        "id": "AS_Button_ee9315ce12f44c888fd19bada586ea59",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__be5e39716f164219b9540d02f0eab848",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableFaceIdLoginNoOnClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

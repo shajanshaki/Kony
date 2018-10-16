@@ -1,0 +1,24 @@
+{
+    "AS_UWI_dada6305d4464194958ff1dbd130d124": {
+        "id": "AS_UWI_dada6305d4464194958ff1dbd130d124",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cae7b8fbcfa54c92937e392d2a3830c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bc2535ba3701459ba09629b9df779ba6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.listdetail.filterAndSetData(this.view.filterMenu.getSelectedValues());\nthis.view.flxCover.isVisible = false;\nthis.animation(1,1,\"0%\",true);\nthis.view.filterMenu.left = \"100%\";\nthis.view.forceLayout();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_i7d9caceaa8044099666e8c52126e379": {
+        "id": "AS_UWI_i7d9caceaa8044099666e8c52126e379",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c2e45f49e62249f4ad2a56b04cd26175",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"FaceId unEnroll Failed: \");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

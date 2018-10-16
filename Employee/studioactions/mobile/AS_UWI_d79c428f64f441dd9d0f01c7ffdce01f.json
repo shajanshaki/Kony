@@ -1,0 +1,24 @@
+{
+    "AS_UWI_d79c428f64f441dd9d0f01c7ffdce01f": {
+        "id": "AS_UWI_d79c428f64f441dd9d0f01c7ffdce01f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ge6e646b7bbb4dcb9f1e3056f99aa24a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"FaceId Verification Failed \");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

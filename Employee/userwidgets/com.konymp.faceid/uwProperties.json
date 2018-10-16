@@ -1,0 +1,517 @@
+{
+    "classname": "faceid",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fa1f985e470a405ca38cedd4c35a820a",
+                    "paramList": [],
+                    "propertyKey": "configuration",
+                    "pw": {
+                        "displayName": "configuration",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "eef1ea162d9e4002b3155d66e8ce9e8a",
+                    "paramList": [],
+                    "propertyKey": "initialize",
+                    "pw": {
+                        "displayName": "initialize",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ab42119793bf468a8974546c4af232ee",
+                    "paramList": [],
+                    "propertyKey": "enroll",
+                    "pw": {
+                        "displayName": "enroll",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "aa336f9bf81842d4abb23835e1e967aa",
+                    "paramList": [],
+                    "propertyKey": "verify",
+                    "pw": {
+                        "displayName": "verify",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "eb42875715e949ffa4760bbee7167904",
+                    "paramList": [],
+                    "propertyKey": "unenroll",
+                    "pw": {
+                        "displayName": "unenroll",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d015eaeecb814b3caa952a69eae8fc5b",
+                    "paramList": [],
+                    "propertyKey": "uninitialize",
+                    "pw": {
+                        "displayName": "uninitialize",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "Enroll",
+                    "kuid": "i42dd062ea52468e978cc9ad4a15fc46",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onEnrollSuccess",
+                    "pw": {
+                        "displayName": "onEnrollSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Initialization",
+                    "kuid": "hbf57c38ce8f4526a95cdbc416ec84f0",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onInitSuccess",
+                    "pw": {
+                        "displayName": "onInitSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Verify",
+                    "kuid": "abe61227f73b4365b2ec9b5160576bae",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onVerifySuccess",
+                    "pw": {
+                        "displayName": "onVerifySuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Unenroll",
+                    "kuid": "ja879b80cfe44889b0b5c32111679b53",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onUnenrollSuccess",
+                    "pw": {
+                        "displayName": "onUnenrollSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Initialization",
+                    "kuid": "g13d38e3f6454f71921f6c8c6be32659",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onInitFailure",
+                    "pw": {
+                        "displayName": "onInitFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Verify",
+                    "kuid": "c85678fa52a342399e7c3f77ea963838",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onVerifyFailure",
+                    "pw": {
+                        "displayName": "onVerifyFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Enroll",
+                    "kuid": "db6f43c0b82948718556d8568630b2b7",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onEnrollFailure",
+                    "pw": {
+                        "displayName": "onEnrollFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                },
+                {
+                    "group": "Unenroll",
+                    "kuid": "d04b79fc585e46b8aad553f6da3cea3f",
+                    "paramList": [
+                        {
+                            "name": "error"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onUnenrollFailure",
+                    "pw": {
+                        "displayName": "onUnenrollFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "Initialization",
+                "Enroll",
+                "Verify",
+                "Unenroll"
+            ],
+            "properties": [
+                "Button Properties",
+                "Token Configuration",
+                "Enroll Configuration",
+                "Verify Configuration",
+                "License Configuration"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 3000,
+                    "group": "Enroll Configuration",
+                    "kuid": "c424e8c136ad49828d6f2075a7d62b42",
+                    "originalPropertyKey": "enrollTimeout",
+                    "propertyIndex": 1,
+                    "propertyKey": "enrollTimeout",
+                    "pw": {
+                        "displayName": "Timeout",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 3000,
+                    "group": "Verify Configuration",
+                    "kuid": "i7aabe15e0854488965a1b83ac307a0a",
+                    "originalPropertyKey": "verifyTimeout",
+                    "propertyIndex": 1,
+                    "propertyKey": "verifyTimeout",
+                    "pw": {
+                        "displayName": "Timeout",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter License Entitlement  String",
+                    "group": "License Configuration",
+                    "kuid": "c300bcfefaf24bf682078c9173f1d73e",
+                    "originalPropertyKey": "licenseString",
+                    "propertyIndex": 1,
+                    "propertyKey": "licenseString",
+                    "pw": {
+                        "displayName": "Licence Entitlement String",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "login",
+                    "group": "Token Configuration",
+                    "kuid": "ge851d098994420688778aa87c13c438",
+                    "originalPropertyKey": "tokenName",
+                    "propertyIndex": 1,
+                    "propertyKey": "tokenName",
+                    "pw": {
+                        "displayName": "Token Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 50,
+                    "group": "Enroll Configuration",
+                    "kuid": "d70efbb016a34d9c838cfe53c42b0d96",
+                    "originalPropertyKey": "enrollQualityThreshold",
+                    "propertyIndex": 2,
+                    "propertyKey": "enrollQualityThreshold",
+                    "pw": {
+                        "displayName": "Quality Threshold",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "LIVENESS_PASSIVE",
+                    "group": "Verify Configuration",
+                    "kuid": "e35856c8f1ca4c79a6e3aef487d948ba",
+                    "originalPropertyKey": "livenessMode",
+                    "propertyIndex": 2,
+                    "propertyKey": "livenessMode",
+                    "pw": {
+                        "displayName": "Liveness Mode",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "list selector",
+                    "value": [
+                        "IMAGE",
+                        "LIVENESS_PASSIVE"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter Server URL",
+                    "group": "License Configuration",
+                    "kuid": "c314e18a2d4145f184ed96301adaf283",
+                    "originalPropertyKey": "serverURL",
+                    "propertyIndex": 2,
+                    "propertyKey": "serverURL",
+                    "pw": {
+                        "displayName": "Server URL",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "CLEAR_TEXT",
+                    "group": "Token Configuration",
+                    "kuid": "fbee5836e5eb4194ad73a4030e258cf1",
+                    "originalPropertyKey": "tokenConfigType",
+                    "propertyIndex": 3,
+                    "propertyKey": "tokenConfigType",
+                    "pw": {
+                        "displayName": "Token Config Type",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "list selector",
+                    "value": [
+                        "CLEAR_TEXT"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 0,
+                    "group": "Verify Configuration",
+                    "kuid": "bf0a7a2892ec45b7b3ff2f9c91418807",
+                    "originalPropertyKey": "livenessThreshold",
+                    "propertyIndex": 3,
+                    "propertyKey": "livenessThreshold",
+                    "pw": {
+                        "displayName": "Liveness Threshold",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 2000,
+                    "group": "Verify Configuration",
+                    "kuid": "b644d0d325fd4eafab023d6671ae1b26",
+                    "originalPropertyKey": "blinkTimeout",
+                    "propertyIndex": 4,
+                    "propertyKey": "blinkTimeout",
+                    "pw": {
+                        "displayName": "Blink Timeout",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "12345678912345678900",
+                    "group": "Token Configuration",
+                    "kuid": "e1c177b1ba0f41bebec629d2a6715a5a",
+                    "originalPropertyKey": "secret",
+                    "propertyIndex": 4,
+                    "propertyKey": "secret",
+                    "pw": {
+                        "displayName": "Secret",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 50,
+                    "group": "Verify Configuration",
+                    "kuid": "f1ac32810e2f4335ab9a332d25e458b2",
+                    "originalPropertyKey": "verifyQualityThreshold",
+                    "propertyIndex": 5,
+                    "propertyKey": "verifyQualityThreshold",
+                    "pw": {
+                        "displayName": "Quality Threshold",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "1234",
+                    "group": "Token Configuration",
+                    "kuid": "hc23f6e499bb4be7b2cae415eff54574",
+                    "originalPropertyKey": "pin",
+                    "propertyIndex": 5,
+                    "propertyKey": "pin",
+                    "pw": {
+                        "displayName": "Pin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 48,
+                    "group": "Verify Configuration",
+                    "kuid": "je8b99a5d85c4f68bd6788b80d1f8a26",
+                    "originalPropertyKey": "matchingThreshold",
+                    "propertyIndex": 6,
+                    "propertyKey": "matchingThreshold",
+                    "pw": {
+                        "displayName": "Matching Threshold",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "add24d4a07f14cec8078d4456a38aa1c",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dae5f5e4ba8f405b9e43d03c70fb7eb9",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnSignInSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Button Skin",
+                        "srcWidget": "btnSignIn",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a7dc070e35d2450f8c89f4291f2fb937"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Button Properties",
+                    "kuid": "bfc19135fae94d00a242335c9d637104",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text",
+                        "srcWidget": "btnSignIn",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a7dc070e35d2450f8c89f4291f2fb937"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

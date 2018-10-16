@@ -1,0 +1,23 @@
+{
+    "AS_UWI_d0c2c7ad203546f69cb527a888903d89": {
+        "id": "AS_UWI_d0c2c7ad203546f69cb527a888903d89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "fdd15c5b794f4df4b23b91a6aa4578a3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dfe7392a86ca42d3897af39b43db12ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.faceidVerifyFailed(error);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

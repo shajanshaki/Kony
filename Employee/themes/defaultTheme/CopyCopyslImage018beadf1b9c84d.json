@@ -1,0 +1,37 @@
+{
+    "background_color": "00000000",
+    "bg_type": "one",
+    "border_color": "ffffffff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_name": "Helvetica",
+    "font_size": 156,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "border_color": "ffffffff",
+        "border_style": "plain",
+        "border_type": 0,
+        "border_width": 0,
+        "isForked": true
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "border_color": "ffffffff",
+        "border_style": "plain",
+        "border_type": 0,
+        "border_width": 0,
+        "isForked": true
+    },
+    "kuid": "sb35378db9294184880978d20bdf1532",
+    "wType": "Image",
+    "windows8": {
+        "border_color": "ffffffff",
+        "border_style": "plain",
+        "border_type": 0,
+        "border_width": 0,
+        "isForked": true
+    }
+}

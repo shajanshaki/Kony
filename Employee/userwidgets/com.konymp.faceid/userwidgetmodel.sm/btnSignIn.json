@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf7d9124b97c44728a52d24341853cca",
+    "_text_": "Sign in with Face-ID",
+    "_top_": {
+        "type": "string",
+        "value": "56%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnSignIn",
+    "ide_onClick": "AS_Button_d8f506fe8d3443a28c00f0da1c53cd09",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a7dc070e35d2450f8c89f4291f2fb937",
+    "name": "kony.ui.Button",
+    "parent": "faceid",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

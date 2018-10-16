@@ -1,0 +1,89 @@
+{
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s62e4d380c0c484a910cf93d95006f61",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "bouncesZoom": true,
+    "canUpdateUI": true,
+    "children": [
+        "callMobileFlex",
+        "callWorkFlex",
+        "emailFlex",
+        "departmentFlex",
+        "reportingToFlex",
+        "locationFlex",
+        "wksFlex",
+        "empFlex",
+        "skypeFlex",
+        "addressFlex",
+        "timezoneFlex",
+        "groupsFlex"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": false,
+    "horizontalscrollindicator": true,
+    "id": "flxScrollDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "d223f0b81d1f4971acc3a18aeeb1899d",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxBody",
+    "pf": "userwidgetmodel",
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "track": false,
+    "verticalscrollindicator": false,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

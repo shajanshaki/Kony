@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_8aa71a407d0741f1856cc1a46f951780": {
+        "id": "AS_FlexContainer_8aa71a407d0741f1856cc1a46f951780",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuf6e3557d18e4dac8ff79ade6a3b1f25",
+            "type": "userwidgets",
+            "KUID": "uf6e3557d18e4dac8ff79ade6a3b1f25"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d871bd9397854a9ba6714dd3a1c8ffe1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"inputType\",\"social\");\nthis.invokeIdentityService(\"reusableLinkedinLogin\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AS_UWI_c9c23f0cc52d4f9ba71b76c4cb4402a9": {
+        "id": "AS_UWI_c9c23f0cc52d4f9ba71b76c4cb4402a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cae7b8fbcfa54c92937e392d2a3830c8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d49a2eeba4eb4b3ba8d389da9499e5ea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.listdetail.filterAndSetData(this.view.filterMenu.getSelectedValues());",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

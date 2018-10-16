@@ -1,0 +1,113 @@
+{
+    "android": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Nunito-Medium",
+        "font_size": 124,
+        "isForked": true
+    },
+    "background_color": "00000000",
+    "bg_type": "one",
+    "border_color": "424242ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "desktopweb": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "fontSizeInPx": false,
+    "font_color": "424242ff",
+    "font_name": "Helvetica",
+    "font_size": 167,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_color": "f2f2f2ff",
+        "font_name": "ClanPro-News",
+        "font_size": 124,
+        "isForked": true
+    },
+    "iphone": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Nunito-Medium",
+        "font_size": 124,
+        "isForked": true
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_color": "f2f2f2ff",
+        "font_name": "GenericMonospace",
+        "font_size": 124,
+        "isForked": true
+    },
+    "kuid": "sc0e40dff084455396387d97879dcdef",
+    "spaan": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Nunito-Medium",
+        "font_size": 124,
+        "isForked": true
+    },
+    "spaandroidtablet": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "spabb": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "spaip": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Nunito-Medium",
+        "font_size": 124,
+        "isForked": true
+    },
+    "spaipad": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "spawindowstablet": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "spawinphone8": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "tabrcandroid": {
+        "font_color": "f2f2f2ff",
+        "font_name": "ClanPro-News",
+        "font_size": 124,
+        "isForked": true
+    },
+    "wType": "Label",
+    "watchos": {
+        "font_color": "f2f2f2ff",
+        "font_name": "Helvetica",
+        "font_size": 124,
+        "isForked": true
+    },
+    "windows8": {
+        "font_color": "f2f2f2ff",
+        "font_name": "GenericMonospace",
+        "font_size": 124,
+        "isForked": true
+    },
+    "winphone8": {
+        "font_color": "f2f2f2ff",
+        "font_name": "GenericMonospace",
+        "font_size": 124,
+        "isForked": true
+    }
+}

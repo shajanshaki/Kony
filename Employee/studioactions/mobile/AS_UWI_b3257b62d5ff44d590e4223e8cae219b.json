@@ -1,0 +1,24 @@
+{
+    "AS_UWI_b3257b62d5ff44d590e4223e8cae219b": {
+        "id": "AS_UWI_b3257b62d5ff44d590e4223e8cae219b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ja15969d78324c34b19d8c6da0624b61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__idb7d8ba66394e89b28cb095174e2c9b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"faceid init Failed!!!\");\nalert(\"faceid init failed:\"+JSON.stringify(error));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

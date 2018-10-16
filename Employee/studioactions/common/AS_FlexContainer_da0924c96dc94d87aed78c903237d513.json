@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_da0924c96dc94d87aed78c903237d513": {
+        "id": "AS_FlexContainer_da0924c96dc94d87aed78c903237d513",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwub6fa345d1d94544a81e90575c96760e",
+            "type": "userwidgets",
+            "KUID": "ub6fa345d1d94544a81e90575c96760e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a751845834014cde98ace4f65b9ded66",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onTouchScrollMove(eventobject,x,y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
